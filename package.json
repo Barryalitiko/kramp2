@@ -1,7 +1,7 @@
 {
-  "name": "krampus-bot",
-  "version": "2.0.0",
-  "description": "By Krampus Bot",
+  "name": "krampus-base",
+  "version": "1.0.0",
+  "description": "By Krampus",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -11,15 +11,10 @@
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.9",
     "@bochilteam/scraper": "^4.2.4",
-    "canvas": "^3.0.0",
-    "express": "^5.0.0",
     "fluent-ffmpeg": "^2.1.2",
     "hercai": "^12.4.0",
     "pino": "^9.6.0",
     "node-fetch": "^3.2.10",
-    "node-cache": "^5.1.2",
-    "mongoose": "^8.9.2",
-    "ytdl-core": "^4.11.5",
-    "play-dl": "^1.9.7"
+    "node-cache": "^5.1.2"
   }
 }
